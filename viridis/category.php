@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <section id="main" role="main">
+  <section id="main" class="col-2-3" role="main">
   <div>
     <h1 class="archive-title"><?php single_cat_title(); ?></h1>
     <?php if ( '' != category_description() ) echo apply_filters( 'archive_meta', '<div class="archive-meta">' . category_description() . '</div>' ); ?>
