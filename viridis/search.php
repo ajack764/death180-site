@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <section id="main" role="main">
+  <section id="main" class="col-2-3" role="main">
     <?php if ( have_posts() ) : ?>
     <div>
       <h1 class="entry-title"><?php printf( __( 'Search Results for: %s', 'blankslate' ), get_search_query() ); ?></h1>

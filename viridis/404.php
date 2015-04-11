@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section id="main" role="main">
+<section id="main" class="col-2-3" role="main">
 <h1 class="archive-title"><?php _e( 'Not Found', 'blankslate' ); ?></h1>
 <article id="post-0" class="post not-found">
 <section class="entry-content">
@@ -9,4 +9,4 @@
 </article>
 </section>
 <?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php get_footer(); ?

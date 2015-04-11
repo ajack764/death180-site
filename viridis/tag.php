@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <section id="main" role="main">
+  <section id="main" class="col-2-3" role="main">
   <div>
     <h1 class="archive-title"><?php _e( 'Tag Archives: ', 'blankslate' ); ?><?php single_tag_title(); ?></h1>
   </div>
